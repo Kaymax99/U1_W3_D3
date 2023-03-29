@@ -18,7 +18,7 @@ public class Main {
 		e.setEventDate(LocalDate.of(2023, 03, 30));
 		
 		EventDAO eDAO = new EventDAO();
-//		eDAO.save(e);
+		eDAO.save(e);
 	}
 
 }
